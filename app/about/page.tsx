@@ -59,6 +59,8 @@ export default function About(){
             <p className="font-light text-xs md:text-sm">If you want to know more about me, you can visit my personal page through : <span className="bg-green-400/20 px-1 font-semibold rounded-sm"><Link href="https://dhimashdr.vercel.app">dhimashdr.vercel.app</Link></span></p>
         </div>
       </div>
-
+      <br />
+      <br />
+      <br />
     </div>
 }
