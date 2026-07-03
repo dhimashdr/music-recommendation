@@ -42,10 +42,21 @@ export default function About(){
 
         <div className="mx-6 md:mx-8 lg:mx-16 flex flex-col gap-4">
             <div className="w-fit">
+                <h1 className="font-bold text-xl md:text-2xl text-green-400">Resources</h1>
+                <hr className="text-green-400"/>
+            </div>
+            <p className="font-light text-xs md:text-sm">Kaggle Notebook : <span className="bg-green-400/20 px-1 font-semibold rounded-sm"><Link href="https://www.kaggle.com/code/dimashendrico/song-recommendation-collaborative-filtering">Song Recommendation - Collaborative Filtering</Link></span></p>
+            <p className="font-light text-xs md:text-sm">HuggingFace Space : <span className="bg-green-400/20 px-1 font-semibold rounded-sm"><Link href="https://huggingface.co/spaces/dhimashdr/spotify-recommender-api/tree/main">Spotify Recommender API</Link></span></p>
+        </div>
+
+        <br />
+
+        <div className="mx-6 md:mx-8 lg:mx-16 flex flex-col gap-4">
+            <div className="w-fit">
                 <h1 className="font-bold text-xl md:text-2xl text-green-400">Reach me out</h1>
                 <hr className="text-green-400"/>
             </div>
-            <p className="font-light text-xs md:text-sm">If you are want to know more about me, you can visit my personal page through : <span className="bg-green-400/20 px-1 font-semibold rounded-sm"><Link href="https://dhimashdr.vercel.app">dhimashdr.vercel.app</Link></span></p>
+            <p className="font-light text-xs md:text-sm">If you want to know more about me, you can visit my personal page through : <span className="bg-green-400/20 px-1 font-semibold rounded-sm"><Link href="https://dhimashdr.vercel.app">dhimashdr.vercel.app</Link></span></p>
         </div>
       </div>
 

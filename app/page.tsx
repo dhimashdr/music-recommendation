@@ -136,7 +136,9 @@ export default function SpotifyRecommender() {
               placeholder="Type the music title or the artist"
               className="w-full bg-neutral-900 border border-neutral-800 rounded-lg px-4 py-3 text-sm focus:outline-none focus:border-green-500 transition-colors placeholder-neutral-500"
             />
-            
+            {(inputText && !isSearching) && (
+              <button className='pb-1 h-4 w-4 right-4 top-3.5 absolute bg-neutral-700 flex items-center justify-center rounded-full text-neutral-400 text-sm' onClick={() => {setInputText('')}}>x</button>
+            )}
             {/* Animasi Spinner Kecil saat Debounce Mencari */}
             {isSearching && (
               <div className="absolute right-4 top-3.5 w-4 h-4 border-2 border-green-500 border-t-transparent rounded-full animate-spin"></div>
